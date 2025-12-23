@@ -21,7 +21,7 @@ Once the one-time setup is complete, *updating the SDK does NOT require repeatin
 
 To update:
 1. Open your `Podfile`
-2. Change the version number only:
+2. Change the version number only in the tag:
 
 ```ruby
 target 'YourApp' do
@@ -93,3 +93,7 @@ class ViewController: UIViewController {
 - `NSCameraUsageDescription` present.
 - Orientations overlap with Unity (avoid crash).
 - Run on device after first install (camera permission prompt). 
+
+## Version
+
+Current version: **1.0.1**
