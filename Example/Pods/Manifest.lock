@@ -1,0 +1,16 @@
+PODS:
+  - MatchStatsSDK (1.0.1)
+
+DEPENDENCIES:
+  - MatchStatsSDK (from `../`)
+
+EXTERNAL SOURCES:
+  MatchStatsSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MatchStatsSDK: acc18af75423aeb72778b9cc4b686594826f6176
+
+PODFILE CHECKSUM: d2d4b9c9539e46cfd52d1567c24f93a7c5bc805e
+
+COCOAPODS: 1.16.2
