@@ -10,12 +10,28 @@ use_frameworks!
 
 target 'YourApp' do
   pod 'MatchStatsSDK', :git => 'https://github.com/razitiwana/match-stats-ios-sdk.git', :tag => '1.0.1'
-  
-  # To specify a version update the :tag => '1.0.2' etc
 end
 
 ```
 - Run `pod install` and open the generated `.xcworkspace`.
+
+## 🔄 Updating the SDK
+
+Once the one-time setup is complete, *updating the SDK does NOT require repeating any setup steps*.
+
+To update:
+1. Open your `Podfile`
+2. Change the version number only:
+
+```ruby
+target 'YourApp' do
+  pod 'MatchStatsSDK', :git => 'https://github.com/razitiwana/match-stats-ios-sdk.git', :tag => '1.0.2'
+end
+```
+
+3. Run `pod install` to update the SDK
+
+**Note:** All other configuration (Info.plist entries, build settings, etc.) remains unchanged when updating versions.
 
 ## Required Info.plist entries
 - Add a camera usage description (the SDK uses the camera) in Info.plist:
