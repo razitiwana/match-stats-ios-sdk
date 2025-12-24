@@ -1,3 +1,2 @@
 UnityFramework.framework/** filter=lfs diff=lfs merge=lfs -text
 MatchStatsSDK.framework/** filter=lfs diff=lfs merge=lfs -text
-MatchStatsSDK.framework/Frameworks/UnityFramework.framework/** filter=lfs diff=lfs merge=lfs -text
