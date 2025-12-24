@@ -4,7 +4,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MatchStatsSDK'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'Match Stats SDK'
   s.description      = 'Unity-based Match Stats SDK.'
   s.homepage         = 'https://github.com/razitiwana/match-stats-ios-sdk'

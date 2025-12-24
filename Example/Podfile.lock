@@ -1,5 +1,5 @@
 PODS:
-  - MatchStatsSDK (1.0.1)
+  - MatchStatsSDK (1.0.2)
 
 DEPENDENCIES:
   - MatchStatsSDK (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MatchStatsSDK: acc18af75423aeb72778b9cc4b686594826f6176
+  MatchStatsSDK: c1ea826cbec662c92e84c82897ebabbc1fe16532
 
 PODFILE CHECKSUM: d2d4b9c9539e46cfd52d1567c24f93a7c5bc805e
 

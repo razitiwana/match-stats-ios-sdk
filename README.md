@@ -9,7 +9,7 @@ platform :ios, '13.0'
 use_frameworks!
 
 target 'YourApp' do
-  pod 'MatchStatsSDK', :git => 'https://github.com/razitiwana/match-stats-ios-sdk.git', :tag => '1.0.1'
+  pod 'MatchStatsSDK', :git => 'https://github.com/razitiwana/match-stats-ios-sdk.git', :tag => '1.0.2'
 end
 
 ```
@@ -25,7 +25,7 @@ To update:
 
 ```ruby
 target 'YourApp' do
-  pod 'MatchStatsSDK', :git => 'https://github.com/razitiwana/match-stats-ios-sdk.git', :tag => '1.0.2'
+  pod 'MatchStatsSDK', :git => 'https://github.com/razitiwana/match-stats-ios-sdk.git', :tag => '1.0.3'
 end
 ```
 
@@ -96,4 +96,4 @@ class ViewController: UIViewController {
 
 ## Version
 
-Current version: **1.0.1**
+Current version: **1.0.2**
